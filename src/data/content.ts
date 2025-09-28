@@ -4,7 +4,7 @@ export const content: SiteContent = {
   about: {
     title: "About Us",
     hero: {
-      title: "Vanilla Marketplace Platform",
+      title: "ผู้ปลูกวนิลลาแห่งประเทศไทย",
       subtitle:
         "Connecting vanilla producers, buyers, and enthusiasts in the $3.9 billion global vanilla market. Your trusted platform for premium vanilla trading and education.",
       image:
@@ -19,7 +19,7 @@ export const content: SiteContent = {
           "We are a dedicated team of vanilla industry experts, agricultural specialists, and technology professionals who recognized the need for a transparent, efficient marketplace in the vanilla trade. Our journey began with a deep understanding of this remarkable orchid that has become one of the world's most valuable agricultural commodities, with prices ranging from $250-$650 per kilogram. We've witnessed firsthand how Madagascar's 80-85% market dominance, combined with labor-intensive cultivation requiring hand-pollination, creates both opportunities and challenges in this $3.9 billion global industry. Our platform bridges the gap between producers and buyers, creating a more transparent and efficient vanilla trading ecosystem.",
         image:
           "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-        imageAlt: "Our team working with vanilla marketplace platform",
+        imageAlt: "Our team working with ผู้ปลูกวนิลลาแห่งประเทศไทย",
       },
       {
         id: "our-mission",
@@ -28,7 +28,7 @@ export const content: SiteContent = {
           "To create the world's most trusted vanilla marketplace platform that connects producers, buyers, and enthusiasts while educating the community about this precious spice. We facilitate transparent trading in the vanilla industry, from the delicate hand-pollination process pioneered by Edmond Albius in 1841 to the careful 3-6 month curing process that develops its complex flavors. Our mission is to democratize access to premium vanilla while supporting sustainable practices, fair trade, and quality assurance. We provide educational resources, market insights, and a secure platform that benefits both smallholder farmers and commercial buyers in this labor-intensive industry.",
         image:
           "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-        imageAlt: "Vanilla marketplace platform interface",
+        imageAlt: "ผู้ปลูกวนิลลาแห่งประเทศไทย interface",
       },
     ],
   },

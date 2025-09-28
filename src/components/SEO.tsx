@@ -34,7 +34,7 @@ export default function SEO({ title, description, image, url }: SEOProps) {
       <meta property="og:image" content={fullImageUrl} />
       <meta property="og:url" content={fullUrl} />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Vanilla Experts" />
+      <meta property="og:site_name" content="ผู้ปลูกวนิลลาแห่งประเทศไทย" />
 
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ export default function SEO({ title, description, image, url }: SEOProps) {
 
       {/* Additional SEO tags */}
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="Vanilla Experts" />
+      <meta name="author" content="ผู้ปลูกวนิลลาแห่งประเทศไทย" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Helmet>
   );
