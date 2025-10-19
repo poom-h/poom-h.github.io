@@ -6,18 +6,21 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && touch dist/.nojekyll",
+    "build": "tsc -b && vite build",
+    "build:deploy": "npm run build && echo. > deploy/.nojekyll",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "vite preview",
+    "preview:deploy": "vite preview --outDir deploy",
     "format": "prettier --write .",
     "type-check": "tsc --noEmit",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --dotfiles"
+    "predeploy": "npm run build:deploy",
+    "deploy": "gh-pages -d deploy --dotfiles",
+    "deploy:build": "npm run build:deploy && npm run deploy"
   },
   "dependencies": {
     "@types/node": "^24.5.2",

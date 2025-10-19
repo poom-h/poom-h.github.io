@@ -6,6 +6,7 @@ export default defineConfig({
   base: "./", // Use relative paths for GitHub Pages compatibility
   plugins: [react()],
   build: {
+    outDir: "deploy", // Build into deploy folder
     rollupOptions: {
       output: {
         manualChunks: {
