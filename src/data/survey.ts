@@ -1,7 +1,7 @@
 import type { SurveyConfig } from "../types";
 
 export const surveyConfig: SurveyConfig = {
-  url: "https://forms.gle/your-google-form-id", // Replace with actual Google Form URL
+  url: "https://forms.gle/4AkgyHb4bL7DSwhk9", // Replace with actual Google Form URL
   title: "Vanilla Knowledge Survey",
   description:
     "Help us understand your vanilla preferences and knowledge. Your feedback will help us improve our educational content and resources.",
