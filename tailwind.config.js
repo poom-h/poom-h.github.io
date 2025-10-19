@@ -1,6 +1,23 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.html"
+  ],
+  safelist: [
+    'animate-fadeInUp',
+    'animate-fadeInDown', 
+    'animate-fadeInLeft',
+    'animate-fadeInRight',
+    'animate-float',
+    'animate-pulse-slow',
+    'btn-primary',
+    'btn-secondary',
+    'card-modern',
+    'gradient-text',
+    'glass-effect'
+  ],
   theme: {
     extend: {
       colors: {
